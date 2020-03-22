@@ -1,1 +1,5 @@
+set(SDL_STATIC OFF)
+set(SDL_DYNAMIC ON)
+set(SDL_SHARED ON)
+set(BUILD_SHARED_LIBS ON)
 add_subdirectory(sdl2)

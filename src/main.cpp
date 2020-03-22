@@ -2,12 +2,6 @@
 #include <cstdlib>
 #include <iostream>
 
-#if defined(__WIN32__)
-int wmain(int argc, char** argv) {
-    main(argc, argv);
-}
-#endif
-
 int main(int argc, char** argv) {
     using std::cerr;
     using std::endl;

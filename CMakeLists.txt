@@ -58,4 +58,4 @@ target_compile_options(${PROJECT_NAME} PRIVATE
 find_package(OpenGL COMPONENTS OpenGL REQUIRED)
 
 # Include and link against dependencies.
-target_link_libraries(${PROJECT_NAME} PRIVATE OpenGL::GL SDL2)
+target_link_libraries(${PROJECT_NAME} PRIVATE OpenGL::GL SDL2 SDL2main)
